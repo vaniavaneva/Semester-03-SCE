@@ -3,7 +3,7 @@ package lab7.ex01;
 public class FictionBook extends Book{
     private String genre;
     
-    public FictionBook(String title, String author, int releaseYear, int totalCopies, int pricePerCopy, String genre){
+    public FictionBook(String title, String author, int releaseYear, int totalCopies, double pricePerCopy, String genre){
         super(title, author, releaseYear, totalCopies, pricePerCopy);
         this.genre = genre;
     }

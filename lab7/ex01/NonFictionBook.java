@@ -3,7 +3,7 @@ package lab7.ex01;
 public class NonFictionBook extends Book{
     private String subject;
     
-    public NonFictionBook(String title, String author, int releaseYear, int totalCopies, int pricePerCopy, String subject){
+    public NonFictionBook(String title, String author, int releaseYear, int totalCopies, double pricePerCopy, String subject){
         super(title, author, releaseYear, totalCopies, pricePerCopy);
         this.subject = subject;
     }

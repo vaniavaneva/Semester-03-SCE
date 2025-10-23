@@ -5,9 +5,9 @@ public abstract class Book {
     private String author;
     private int releaseYear;
     protected int totalCopies;
-    private int pricePerCopy;
+    private double pricePerCopy;
     
-    public Book(String title, String author, int releaseYear, int totalCopies, int pricePerCopy){
+    public Book(String title, String author, int releaseYear, int totalCopies, double pricePerCopy){
         this.title = title;
         this.author = author;
         this.releaseYear = releaseYear;
