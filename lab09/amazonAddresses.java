@@ -1,3 +1,5 @@
+package lab09;
+
 import java.net.*;
 
 public class amazonAddresses {
